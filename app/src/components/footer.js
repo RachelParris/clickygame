@@ -2,7 +2,7 @@ import React from 'react'
 
 // Presentational Component
 const Footer = () => (
-  <div>
+  <div className="footer">
     <p>footer</p>
   </div>
 );

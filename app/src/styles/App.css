@@ -1,0 +1,30 @@
+body {
+  box-sizing: border-box;
+  font: 16px;
+}
+
+.navbar, .footer {
+  background: #cb4154;
+  color: #fff;
+  font-size: 3.75rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px;
+}
+
+.jumbotron {
+  background: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game {
+  display: flex;
+  flex-flow: row wrap;
+   justify-content: center;
+}
+
+.character {}
