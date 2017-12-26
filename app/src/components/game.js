@@ -12,7 +12,7 @@ class Game extends React.Component {
       )
     })
     return (
-      <div>{crew}</div>
+      <div className="game">{crew}</div>
     )
   }
 }

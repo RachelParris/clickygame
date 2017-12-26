@@ -1,38 +1,47 @@
 [
   {
     "name": "Malcom 'Mal' Reynolds",
+    "image": "https://orig00.deviantart.net/6b9a/f/2015/114/a/a/malcolm_reynolds_x_reader_baby____by_bloodyangeljay-d8qxtfl.jpg",
     "rank": "Captian"
   },
   {
     "name": "Zoe Washburne",
+    "image": "",
     "rank": "First Mate"
   },
   {
     "name": "Hoban 'Wash' Washburne",
+    "image": "",
     "rank": "Pilot"
   },
   {
     "name": "Derrial Book",
+    "image": "",
     "rank": "Preacher"
   },
   {
     "name": "Inara Serra",
+    "image": "",
     "rank": "Companion"
   },
   {
     "name": "Jayne Cobb",
+    "image": "",
     "rank": "Mercenary"
   },
   {
     "name": "Kaywinnet Lee 'Kaylee' Frye",
+    "image": "",
     "rank": "mechanic"
   },
   {
     "name": "Simon Tam",
+    "image": "",
     "rank": "doctor"
   },
   {
     "name": "River Tam",
+    "image": "",
     "rank": "???"
   }
 ]

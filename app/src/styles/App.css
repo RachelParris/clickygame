@@ -21,10 +21,24 @@ body {
   align-items: center;
 }
 
+.container {
+  width: 90%;
+}
+
 .game {
   display: flex;
   flex-flow: row wrap;
-   justify-content: center;
+  justify-content: space-around;
 }
 
-.character {}
+.card {
+  border: 1px solid #333;
+  width: 200px;
+  margin: 7px;
+  text-align: center;
+}
+
+.card > img {
+  height: auto;
+  width: 200px;
+}
