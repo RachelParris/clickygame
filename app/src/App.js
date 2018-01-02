@@ -15,14 +15,20 @@ class App extends React.Component {
     this.state = {
       characters,
         score: 0,
-        topScore: 12
+        topScore: 0
     }
   }
 
   increaseScore() {
     this.setState({
       score: this.state.score + 1,
-      topScore: this.state.topScore + 1
+    })
+    this.setState(function(state) {
+      if (this.state.topScore === this.state.characters.length) {
+      return {  topScore: this.state.characters.length }
+      } else {
+        return { topScore: this.state.topScore + 1 }
+      }
     })
   }
 
