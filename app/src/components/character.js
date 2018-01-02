@@ -1,14 +1,22 @@
 import React from 'react';
 
-// Presentational Component
-const Character = (props) => {
-  return (
-    <div className="card">
-      <h3 className="card-title">{props.character.name}</h3>
-      <img alt={props.character.name} src={props.character.image} />
-      <p className="card-text">{props.character.rank}</p>
-    </div>
-  );
+// This is actually a class Component
+class Character extends React.Component {
+
+  render () {
+    return (
+      <div className="card">
+        {this.props.children}
+      </div>
+    );
+  }
 }
 
 export default Character;
+
+/*
+<img
+alt={this.props.character.name}
+src={this.props.character.image}
+onClick={this.props.increaseScore} />
+*/
