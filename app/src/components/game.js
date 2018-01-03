@@ -4,14 +4,15 @@ import React from 'react'
 class Game extends React.Component {
   render() {
     let crew = this.props.characters;
-
     crew = crew.map((item, index) => {
       return (
         <div className="card" key={index}>
           <img
           src={item.image}
           alt={item.name}
-           onClick={this.props.increaseScore} />
+          id="checkItem"
+          clicked="false"
+          onClick={this.props.handleClick} />
         </div>
       )
     })
@@ -21,4 +22,4 @@ class Game extends React.Component {
   }
 }
 
-export default Game
+export default Game;
